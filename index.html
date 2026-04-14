@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chiller Peças | Refrigeração Comercial e Industrial</title>
+    <meta
+      name="description"
+      content="Website institucional da Chiller Peças com foco em peças originais para refrigeração comercial e industrial, atendimento técnico especializado e orçamento rápido pelo WhatsApp."
+    />
+    <meta name="theme-color" content="#1593e5" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="topbar">
+        <div class="container topbar__content">
+          <a href="#inicio" class="brand" aria-label="Chiller Peças">
+            <img
+              class="brand__logo"
+              src="https://i.postimg.cc/52bXkvL5/Design-sem-nome-(64).png"
+              alt="Logo Chiller Peças"
+            />
+          </a>
+
+          <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+          </button>
+
+          <nav class="nav">
+            <a href="#inicio">Home</a>
+            <a href="#produtos">Produtos</a>
+            <a href="#segmentos">Aplicações</a>
+            <a href="#empresa">Quem somos</a>
+            <a href="#contato">Contato</a>
+            <a
+              class="nav__cta"
+              href="https://wa.me/5511940518767"
+              target="_blank"
+              rel="noreferrer"
+              >Solicitar orçamento</a
+            >
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero" id="inicio">
+          <div class="container hero__grid">
+            <div class="hero__copy reveal">
+              <p class="eyebrow">Refrigeração comercial e industrial</p>
+              <h1>Peças originais, resposta rápida e linguagem técnica de verdade.</h1>
+              <p class="hero__text">
+                A Chiller Peças é especializada na revenda de peças e componentes originais
+                para chillers, HVAC, ar-condicionado comercial e refrigeração industrial,
+                com operação nacional, estoque próprio e atendimento ágil para técnicos,
+                instaladores e empresas.
+              </p>
+              <div class="hero__actions">
+                <a
+                  href="https://wa.me/5511940518767"
+                  class="button button--primary"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Pedir orçamento</a
+                >
+                <a href="#produtos" class="button button--secondary">Ver produtos</a>
+              </div>
+              <ul class="hero__highlights">
+                <li>Mais de 2.000 produtos em estoque</li>
+                <li>Revendedora independente de peças originais</li>
+                <li>Atendimento para todo o Brasil</li>
+              </ul>
+            </div>
+
+            <div class="hero__visual reveal">
+              <article class="hero-panel" id="hero-panel" data-theme="compressores" style="--hero-image: url('assets/hero-compressores.svg')">
+                <div class="hero-panel__content">
+                  <p class="hero-panel__label">Linha em destaque</p>
+                  <h2 id="hero-title">Compressores e peças para chiller</h2>
+                  <p id="hero-description">
+                    Destaque principal para o nicho técnico que mais reforça a autoridade da
+                    marca: reposição, performance e compatibilidade para sistemas críticos.
+                  </p>
+                  <span class="hero-panel__chip" id="hero-chip">Alto valor percebido</span>
+                </div>
+
+                <div class="hero-cards" role="tablist" aria-label="Linhas em destaque">
+                  <button
+                    class="hero-card is-active"
+                    data-theme="compressores"
+                    data-title="Compressores e peças para chiller"
+                    data-description="Linha com apelo técnico e comercial forte para manutenção, reposição e confiabilidade operacional."
+                    data-chip="Alto valor percebido"
+                    data-image="assets/hero-compressores.svg"
+                  >
+                    <span class="hero-card__index">01</span>
+                    <strong>Compressores</strong>
+                    <small>Performance e reposição</small>
+                  </button>
+                  <button
+                    class="hero-card"
+                    data-theme="gases"
+                    data-title="Gases refrigerantes e insumos"
+                    data-description="Categoria de giro rápido, forte na home atual, ideal para gerar contato comercial imediato."
+                    data-chip="Alta procura"
+                    data-image="assets/hero-gases.svg"
+                  >
+                    <span class="hero-card__index">02</span>
+                    <strong>Gás refrigerante</strong>
+                    <small>Instalação e manutenção</small>
+                  </button>
+                  <button
+                    class="hero-card"
+                    data-theme="valvulas"
+                    data-title="Válvulas, controles e eletrônicos"
+                    data-description="Válvulas de expansão, termostatos, pressostatos e placas para dar profundidade técnica ao portfólio."
+                    data-chip="Controle do sistema"
+                    data-image="assets/hero-valvulas.svg"
+                  >
+                    <span class="hero-card__index">03</span>
+                    <strong>Controles</strong>
+                    <small>Precisão e automação</small>
+                  </button>
+                  <button
+                    class="hero-card"
+                    data-theme="ferramentas"
+                    data-title="Tubos, ferramentas e equipamentos"
+                    data-description="Tubos de cobre, manifolds e itens de campo para mostrar amplitude de catálogo e suporte ao profissional."
+                    data-chip="Rotina técnica"
+                    data-image="assets/hero-ferramentas.svg"
+                  >
+                    <span class="hero-card__index">04</span>
+                    <strong>Ferramentas</strong>
+                    <small>Campo e oficina</small>
+                  </button>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="metrics container reveal">
+          <div class="metric-card">
+            <strong>+2.000 itens em estoque</strong>
+            <span>Portfólio amplo para manutenção, instalação e reposição técnica.</span>
+          </div>
+          <div class="metric-card">
+            <strong>Originais e procedentes</strong>
+            <span>Compra por canais legais com autenticidade e rastreabilidade.</span>
+          </div>
+          <div class="metric-card">
+            <strong>Operação nacional</strong>
+            <span>Atendimento para autônomos, empresas e operações de maior porte.</span>
+          </div>
+        </section>
+
+        <section class="section section--soft" id="produtos">
+          <div class="container">
+            <div class="section__head reveal">
+              <p class="eyebrow">Produtos em destaque</p>
+              <h2>Vitrine pensada com base nas linhas mais atraentes da sua home.</h2>
+              <p>
+                O novo site prioriza as categorias que mais chamam atenção hoje e reforça
+                a especialidade da Chiller Peças em refrigeração comercial e industrial.
+              </p>
+            </div>
+
+            <div class="product-grid">
+              <article class="product-card reveal product-card--featured" style="--product-image: url('assets/prod-chiller.svg')">
+                <div class="product-card__tag">Especialidade</div>
+                <h3>Peças para Chiller</h3>
+                <p>
+                  Bloco principal para consolidar o nicho da marca e atrair o público mais
+                  técnico do site logo no primeiro scroll.
+                </p>
+                <a href="https://wa.me/5511940518767" target="_blank" rel="noreferrer"
+                  >Solicitar orçamento</a
+                >
+              </article>
+
+              <article class="product-card reveal" style="--product-image: url('assets/prod-compressores.svg')">
+                <h3>Compressores</h3>
+                <p>Linha de alta relevância comercial e forte percepção de valor técnico.</p>
+                <a href="https://wa.me/5511940518767" target="_blank" rel="noreferrer"
+                  >Solicitar orçamento</a
+                >
+              </article>
+
+              <article class="product-card reveal" style="--product-image: url('assets/prod-gases.svg')">
+                <h3>Gás Refrigerante</h3>
+                <p>Categoria de alto giro, ideal para gerar contato rápido e recorrência.</p>
+                <a href="https://wa.me/5511940518767" target="_blank" rel="noreferrer"
+                  >Solicitar orçamento</a
+                >
+              </article>
+
+              <article class="product-card reveal" style="--product-image: url('assets/prod-motores.svg')">
+                <h3>Motores</h3>
+                <p>Reforça amplitude de estoque e presença forte em componentes elétricos.</p>
+                <a href="https://wa.me/5511940518767" target="_blank" rel="noreferrer"
+                  >Solicitar orçamento</a
+                >
+              </article>
+
+              <article class="product-card reveal" style="--product-image: url('assets/prod-valvulas.svg')">
+                <h3>Válvulas de Expansão</h3>
+                <p>Categoria estratégica para credibilidade técnica e profundidade de catálogo.</p>
+                <a href="https://wa.me/5511940518767" target="_blank" rel="noreferrer"
+                  >Solicitar orçamento</a
+                >
+              </article>
+
+              <article class="product-card reveal" style="--product-image: url('assets/prod-tubos.svg')">
+                <h3>Tubos de Cobre</h3>
+                <p>Item clássico de instalação, com apelo forte para profissionais do setor.</p>
+                <a href="https://wa.me/5511940518767" target="_blank" rel="noreferrer"
+                  >Solicitar orçamento</a
+                >
+              </article>
+
+              <article class="product-card reveal" style="--product-image: url('assets/prod-termostatos.svg')">
+                <h3>Termostatos e Controladores</h3>
+                <p>Ótimo para destacar eletrônica, automação e precisão operacional.</p>
+                <a href="https://wa.me/5511940518767" target="_blank" rel="noreferrer"
+                  >Solicitar orçamento</a
+                >
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="segmentos">
+          <div class="container split-layout">
+            <div class="split-layout__copy reveal">
+              <p class="eyebrow">Aplicações atendidas</p>
+              <h2>Seção orientada por uso real, não só por catálogo.</h2>
+              <p>
+                Estrutura ideal para mostrar como a empresa atende manutenção, instalação e
+                reposição em diferentes contextos de refrigeração e climatização.
+              </p>
+            </div>
+            <div class="service-list reveal">
+              <button class="service-item is-selected">
+                <span>Chillers e resfriadores de líquido</span>
+                <small>Reposição, sensores, filtros, placas e componentes críticos.</small>
+              </button>
+              <button class="service-item">
+                <span>Ar-condicionado comercial e industrial</span>
+                <small>Peças, controles, motores e itens de manutenção.</small>
+              </button>
+              <button class="service-item">
+                <span>HVAC e VRF/VRV</span>
+                <small>Componentes para sistemas de climatização e controle.</small>
+              </button>
+              <button class="service-item">
+                <span>Instalação e manutenção</span>
+                <small>Tubos, gases, manifolds, ferramentas e consumíveis.</small>
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <section class="section section--dark" id="empresa">
+          <div class="container about-grid">
+            <article class="about-card reveal">
+              <p class="eyebrow">Quem somos</p>
+              <h2>Uma operação técnica, comercial e transparente.</h2>
+              <p>
+                A Chiller Peças é uma empresa brasileira especializada na revenda de peças e
+                componentes originais para sistemas de refrigeração comercial e industrial,
+                com sede própria no Tatuapé, em São Paulo.
+              </p>
+              <p>
+                Atua como revendedora independente, sem vínculo oficial de distribuição com
+                os fabricantes comercializados, mantendo transparência comercial e garantia
+                de procedência dos produtos.
+              </p>
+            </article>
+
+            <article class="values-card reveal">
+              <h3>Missão, visão e valores</h3>
+              <ul>
+                <li><strong>Missão:</strong> atendimento ágil, eficaz e diferenciado.</li>
+                <li><strong>Visão:</strong> ser referência nacional em refrigeração e climatização.</li>
+                <li>
+                  <strong>Valores:</strong> Atitude de Dono, Foco, Melhoria Contínua,
+                  Lealdade e Trabalho em Equipe.
+                </li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section class="section authority">
+          <div class="container authority-grid">
+            <article class="authority-card reveal">
+              <strong>Loja física em São Paulo</strong>
+              <span>Base operacional no Tatuapé para fortalecer confiança e proximidade.</span>
+            </article>
+            <article class="authority-card reveal">
+              <strong>Especialistas em HVAC</strong>
+              <span>Comunicação alinhada com o mercado técnico e suas rotinas reais.</span>
+            </article>
+            <article class="authority-card reveal">
+              <strong>Contato rápido por WhatsApp</strong>
+              <span>Conversão direta com CTA comercial sempre visível.</span>
+            </article>
+          </div>
+        </section>
+
+        <section class="cta-band">
+          <div class="container cta-band__content reveal">
+            <div>
+              <p class="eyebrow">Conversão direta</p>
+              <h2>Seu novo site foi desenhado para gerar contato comercial com menos atrito.</h2>
+            </div>
+            <a
+              class="button button--primary"
+              href="https://wa.me/5511940518767"
+              target="_blank"
+              rel="noreferrer"
+              >Falar no WhatsApp</a
+            >
+          </div>
+        </section>
+
+        <section class="section" id="contato">
+          <div class="container contact-grid">
+            <div class="contact-info reveal">
+              <p class="eyebrow">Contato</p>
+              <h2>Fale com a Chiller Peças</h2>
+              <p>
+                Use o formulário para gerar uma mensagem pronta ou clique direto no botão de
+                orçamento para continuar no WhatsApp.
+              </p>
+              <ul>
+                <li><strong>Telefone:</strong> (11) 2918-8119</li>
+                <li><strong>WhatsApp:</strong> (11) 94051-8767</li>
+                <li><strong>E-mail:</strong> vendas@chillerpecas.com</li>
+                <li><strong>Endereço:</strong> Rua Antônio de Barros, 1093 - Tatuapé - São Paulo - SP</li>
+              </ul>
+            </div>
+
+            <form class="contact-form reveal" id="contact-form">
+              <label>
+                Nome
+                <input type="text" name="nome" placeholder="Seu nome" required />
+              </label>
+              <label>
+                Empresa
+                <input type="text" name="empresa" placeholder="Nome da empresa" />
+              </label>
+              <label>
+                Telefone
+                <input type="tel" name="telefone" placeholder="(11) 99999-9999" required />
+              </label>
+              <label>
+                E-mail
+                <input type="email" name="email" placeholder="voce@empresa.com.br" required />
+              </label>
+              <label>
+                Produto de interesse
+                <select name="produto">
+                  <option>Peças para Chiller</option>
+                  <option>Compressores</option>
+                  <option>Gás Refrigerante</option>
+                  <option>Motores</option>
+                  <option>Válvulas de Expansão</option>
+                  <option>Tubos de Cobre</option>
+                  <option>Termostatos e Controladores</option>
+                </select>
+              </label>
+              <label>
+                Mensagem
+                <textarea
+                  name="mensagem"
+                  rows="5"
+                  placeholder="Descreva a peça ou necessidade técnica"
+                ></textarea>
+              </label>
+              <button type="submit" class="button button--primary button--full">
+                Enviar para o WhatsApp
+              </button>
+            </form>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="container footer__content">
+          <img
+            class="footer__logo"
+            src="https://i.postimg.cc/52bXkvL5/Design-sem-nome-(64).png"
+            alt="Logo Chiller Peças"
+          />
+          <div>
+            <strong>Chiller Peças</strong>
+            <p>Revendedora independente de peças originais para refrigeração comercial e industrial.</p>
+          </div>
+          <a href="https://wa.me/5511940518767" target="_blank" rel="noreferrer"
+            >Solicitar orçamento</a
+          >
+        </div>
+      </footer>
+
+      <div class="popup" id="popup" aria-hidden="true">
+        <div class="popup__panel">
+          <button class="popup__close" aria-label="Fechar">×</button>
+          <div class="popup__icon">✓</div>
+          <h3>Redirecionando para o WhatsApp</h3>
+          <p>Sua mensagem foi preparada. Continue o atendimento direto com a equipe comercial.</p>
+          <a
+            class="button button--primary"
+            id="popup-link"
+            href="https://wa.me/5511940518767"
+            target="_blank"
+            rel="noreferrer"
+            >Abrir WhatsApp</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
